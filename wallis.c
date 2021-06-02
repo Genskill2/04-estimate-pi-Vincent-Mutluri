@@ -31,7 +31,8 @@ float wallis_pi(int x)
 {
    float nu = 4 * j * j ;
    float de = nu - 1;
-   r = nu/de;
+   float pi =nu/de;
+   r = r * pi;
 }
 return r;
 }
