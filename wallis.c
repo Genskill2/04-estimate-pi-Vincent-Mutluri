@@ -29,7 +29,7 @@ float wallis_pi(int x)
  ret r=1;
  for(int j=1;j<x;j++)
 {
-   r = (4 * x *x )/((4*x*x) -1);
+   r = (4 * i *i )/((4*i*i) -1);
 }
 return r;
 }
